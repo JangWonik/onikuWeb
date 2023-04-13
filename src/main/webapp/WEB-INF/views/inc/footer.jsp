@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="ko">		
 <script src="./resources/jquery/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="./resources/jquery/jquery-ui.min.css"/>
@@ -8,16 +8,16 @@
 	<footer class="footer">
 	    <div class="inner">
 	        <address>
-	            <span>서울특별시 마포구 마포대로 63-8, 301호(도화동, 삼창프라자빌딩)&nbsp;&nbsp;탑손해사정 주식회사</span><br/>
+	            <!-- <span>서울특별시 마포구 마포대로 63-8, 301호(도화동, 삼창프라자빌딩)&nbsp;&nbsp;탑손해사정 주식회사</span><br/>
 	            <span><strong>사업자등록번호</strong>105-86-49340</span>
 	            <span><strong>손해사정업등록번호</strong>B0000146호</span><br/>
 	            <span><strong>Tel</strong>02-6077-4600</span>
-	            <span><strong>Fax</strong>02-338-3234</span>
+	            <span><strong>Fax</strong>02-338-3234</span> -->
 	            <span style="cursor:pointer;" onclick="javascript:openPersonInfoModal();"><strong>개인정보 처리방침</strong></span>
 	            <br/>
-	            <span>&copy; 탑손해사정주식회사&nbsp;&nbsp;&nbsp;All Rights Reserved.</span>
+	            <span>&copy; Develop Of Java&nbsp;&nbsp;&nbsp;All Rights Reserved.</span>
 	        </address>	        
-	        <a href="#" class="footer_logo"><img src="/resources/topImg/topCom/footer_logo.png" alt="탑손해사정주식회사"/></a>
+	        <a href="#" class="footer_logo"><img src="/resources/img/logo_footer.png" alt="Develop Of Java"/></a>
 	    </div>
 	    <!-- 개인정보 처리방침 시작 -->
 	    <div id="personal-info-dialog" title="개인정보 처리방침" style="font-size: 12px;display:none;" align="center">
@@ -29,7 +29,7 @@
 			<thead>		
                	<tr>
                		<td colspan="2" style="font-size:14px;">
-               			(주)탑손해사정(이하 ‘회사’라 한다)은 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립&middot;공개합니다.
+               			(주)자바개발회사(이하 ‘회사’라 한다)은 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립&middot;공개합니다.
                		</td>
 				</tr>			
 				<tr>

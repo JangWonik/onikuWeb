@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page session="true" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="ko">
     <head>
         <title>Oniku's Web Develop</title>
@@ -42,19 +42,11 @@
                             <li>
                                 <div class="slide slide04"></div>
                             </li>
-                        </ul>
-                        <div class="scroll">
-                            <a href="#">
-                                <img src="/resources/topImg/topCom/ico_arrow.png" alt="페이지 이동">
-                            </a>
-                        </div>
+                        </ul>                        
                     </div>
                 </article>      
-            </section>
-            <!-- //main banner -->
-            <fmt:formatDate value="${now}" pattern="yyyyMMddhhmm" var="nowDate" />            
-            <!-- container -->
-            <section class="contents">
+            </section>            
+            <%-- <section class="contents">
                 <h2 class="hide">본문</h2>
                 <article class="inner">
                     <div class="main_board">
@@ -125,101 +117,13 @@
 				                    </table>
                                 </li>
                             </ul>
-                       </div>                        
-                        <!-- <div class="gallery_con" style="float:right;">   
-                            <ul>
-                                <li>
-                                    <div id="player" style="width:700px;height:400px;text-align:center;padding-top:20px;"></div>
-                                </li>                                
-                            </ul>                            
-                        </div>   -->                      
-                        <!-- <div class="tit"><h5>TOP<br/>Gallery</h5></div>
-                        <div class="gallery_con">   
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <div class="thm"><img src="/resources/topImg/topCom/img_gallery01.png" alt=""></div>
-                                        <div class="info">
-                                            <div class="tit">게시글 제목이 들어갑니다.</div>                                            
-                                            <div class="date">2017.07.20</div>
-                                            <div class="hit">256</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div class="thm"><img src="/resources/topImg/topCom/img_gallery02.png" alt=""></div>
-                                        <div class="info">
-                                            <div class="tit">게시글 제목이 들어갑니다.</div>                                            
-                                            <div class="date">2017.07.20</div>
-                                            <div class="hit">256</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div class="thm"><img src="/resources/topImg/topCom/img_gallery01.png" alt=""></div>
-                                        <div class="info">
-                                            <div class="tit">게시글 제목이 들어갑니다.</div>                                            
-                                            <div  class="date">2017.07.20</div>
-                                            <div class="hit">256</div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="#" class="more">더보기</a>
-                        </div> -->
+                       </div>
                     </div>
                 </article>
-            </section> 
-            <section>
-                <article>
-                    <div class="member_list">
-                        <div class="inner">
-                            <h3>Top Members</h3>
-                            <ul class="member_slide">                                
-                                <li>
-                                    <a href="https://www.samsungfire.com" target="_blank"><img src="/resources/topImg/topSub/samfire.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.hi.co.kr" target="_blank"><img src="/resources/topImg/topSub/hyundae.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.idbins.com" target="_blank"><img src="/resources/topImg/topSub/dbinsu.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.lotteins.co.kr" target="_blank"><img src="/resources/topImg/topSub/lotte.png" alt="" style="width:260px;height:119px;"/></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.hwgeneralins.com" target="_blank"><img src="/resources/topImg/topSub/hanhwa.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.heungkukfire.co.kr" target="_blank"><img src="/resources/topImg/topSub/hungfire.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.meritzfire.com" target="_blank"><img src="/resources/topImg/topSub/meritz.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="http://www.aceinsurance.co.kr" target="_blank"><img src="/resources/topImg/topSub/chubb.png" alt="" style="width:260px;height:119px;"/></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.kfcc.co.kr" target="_blank"><img src="/resources/topImg/topSub/mg1.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.nhfire.co.kr" target="_blank"><img src="/resources/topImg/topSub/nong.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.ms-ins.co.kr" target="_blank"><img src="/resources/topImg/topSub/mitsui.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.aig.co.kr" target="_blank"><img src="/resources/topImg/topSub/AIG.png" alt="" style="width:260px;height:119px;"/></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.kbinsure.co.kr" target="_blank"><img src="/resources/topImg/topSub/KB.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.carrotins.com" target="_blank"><img src="/resources/topImg/topSub/logo_carrot1.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.axa.co.kr" target="_blank"><img src="/resources/topImg/topSub/AXA_LOGO1.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.abllife.co.kr" target="_blank"><img src="/resources/topImg/topSub/ABL.png" alt="" style="width:260px;height:119px;"/></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.suhyup.co.kr" target="_blank"><img src="/resources/topImg/topSub/water.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="http://www.cu.co.kr" target="_blank"><img src="/resources/topImg/topSub/shin.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.cgbest.co.kr" target="_blank"><img src="/resources/topImg/topSub/construction.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.kwcu.or.kr" target="_blank"><img src="/resources/topImg/topSub/kswc.jpg" alt="" style="width:260px;height:119px;"/></a>
-                                </li>
-                                <li>
-                                    <a href="https://insu.kfcc.co.kr" target="_blank"><img src="/resources/topImg/topSub/mg_c1.png" alt="" style="width:260px;height:119px;"/></a>
-                                    <a href="https://www.kscfc.co.kr" target="_blank"><img src="/resources/topImg/topSub/kscfc_logo.png" alt="" style="width:260px;height:119px;"/></a>                                    
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <form id="srchForm" name="srchForm" method="GET">
+            </section> --%>
+            <!-- <form id="srchForm" name="srchForm" method="GET">
             	<input type="hidden" id="bkey" name="bkey"/>
-            </form>
+            </form> -->
             <!-- header -->	
 			<c:import url="../inc/footer.jsp"></c:import>
 			<!-- //header -->
