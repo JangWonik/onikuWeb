@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.oniku.util.common.AsraMap" alias="AsraMap"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="META-INF/main/main-mapper.xml" />
+		<!-- 로그인/Main -->
+		<!-- <mapper resource="META-INF/top_login/toplogin-mapper.xml" /> -->
+		<!-- <mapper resource="META-INF/top_main/topmainbrd-mapper.xml" /> -->		
+	</mappers>
+
+</configuration>
