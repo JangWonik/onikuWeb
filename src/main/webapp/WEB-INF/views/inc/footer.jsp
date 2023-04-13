@@ -1,10 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ko">		
-<script src="./resources/jquery/jquery-ui.min.js"></script>
-<link rel="stylesheet" href="./resources/jquery/jquery-ui.min.css"/>
-<link rel="stylesheet" href="./resources/jquery/jquery-ui.structure.min.css"/>
-<link rel="stylesheet" href="./resources/jquery/jquery-ui.theme.min.css"/>
+<html lang="ko">
 	<footer class="footer">
 	    <div class="inner">
 	        <address>
